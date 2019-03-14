@@ -13,12 +13,12 @@ var_dump($res);
 ```php
 # log储存路径 依赖于Di注入
 Di::getInstance()->set('CONFIG_LOG_DIR', "./log/");
-$lognew = new \Siam\Logger();
+$lognew = \Siam\Logger::getInstance();
 $res    = $lognew->log("测试log", 'die');
 var_dump($res);
 
 # 自定义日志处理器
-$log3 = new \Siam\Logger(new \Siam\Trace\LoggerRedis());
+$log3 = \Siam\Logger::getInstance(new \Siam\Trace\LoggerRedis());
 $log3->log('test');
 ```
 
