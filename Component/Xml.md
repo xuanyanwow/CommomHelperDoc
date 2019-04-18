@@ -14,6 +14,7 @@ $array = [
     ['BODY'] => '123'
 ];
 
-$res = Xml::getInstance()->arrayToXml($array);
+/* 第二个参数是要不要加头部<?xml version="1.0" encoding="UTF-8"?>  默认为true*/
+$res = Xml::getInstance()->arrayToXml($array, true); 
 echo $res;
 ```
