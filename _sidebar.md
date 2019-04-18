@@ -11,3 +11,4 @@
 * * * [Access Token](Component/Wechat/Token)
 * * * [ApiTicket](Component/Wechat/ApiTicket)
 * * * [Workder](Component/Wechat/Workder)
+* * [Xml](Component/Xml)
