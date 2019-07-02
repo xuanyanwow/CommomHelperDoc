@@ -12,3 +12,4 @@
 * * * [ApiTicket](Component/Wechat/ApiTicket)
 * * * [Workder](Component/Wechat/Workder)
 * * [Xml](Component/Xml)
+* * [Jwt](Component/Jwt)
